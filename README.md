@@ -2,7 +2,7 @@
 
 > **Good neighbors bring casseroles, not chaos.**
 
-Good Neighbor Protocol is a handbook-backed framework for turning messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests.
+Good Neighbor Protocol is a handbook-backed framework for turning messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests. The full handbook is available here: https://tennyogodde.gumroad.com/l/eowoat
 
 It is a shared language. A collaboration protocol. A bridge between vision and execution.
 
@@ -112,6 +112,7 @@ GNP is independently developed. If it has been useful to you:
 
 - ⭐ Star this repo
 - 💬 Share it with someone who sends unclear requests
+- 📖 Buy the full handbook: https://tennyogodde.gumroad.com/l/eowoat
 - ☕ [Buy me a coffee](https://buymeacoffee.com/) *(placeholder — link coming)*
 - 💛 [GitHub Sponsors](https://github.com/sponsors/) *(placeholder — link coming)*
 
@@ -136,6 +137,7 @@ New to GNP? Here's a path in:
 3. Walk through [docs/casserole-checklist.md](docs/casserole-checklist.md) with a real request you're working on
 4. Browse [docs/examples.md](docs/examples.md) to see what the before/after looks like in practice
 5. Check [docs/faq.md](docs/faq.md) if you have questions
+6. Buy the full handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
 
 Questions, thoughts, and handoff stories are welcome in [GitHub Discussions](../../discussions).
 

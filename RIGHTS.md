@@ -1,41 +1,55 @@
 # Rights & Ownership — Good Neighbor Protocol
 
-**Good Neighbor Protocol (GNP)** is a proprietary framework. All rights are reserved by its creators.
+**Copyright © 2026 Kayla Mon'Cheri Campbell. All rights reserved.**
 
 ---
 
 ## What This Means
 
-This repository and all content within it — including but not limited to the framework structure, the CASSEROLE model, the handbook, templates, checklists, documentation, and any associated tooling — are the intellectual property of the creators of Good Neighbor Protocol.
+The Good Neighbor Protocol framework, handbook text, CASSEROLE model, terminology, documentation, templates, checklists, and all related materials in this repository are the intellectual property of Kayla Mon'Cheri Campbell.
 
 **This project is not open source.**
 
-No MIT, Apache, GPL, Creative Commons, or other permissive license has been granted. The absence of a license file does not imply any permission to use, copy, modify, distribute, or sublicense this work.
+No MIT, Apache, GPL, Creative Commons, or other permissive license has been applied. The absence of a license file does not imply any permission to use, copy, modify, distribute, or sublicense this work.
 
 ---
 
-## Permitted Use
+## Viewing This Repository
 
-You **may**:
+This repository is public for a reason: visibility, education, community discussion, and credibility as the framework develops. Public access is not the same as open permission.
 
+Viewing the repository does not grant permission to:
+- reproduce or republish the framework or handbook text
+- redistribute these materials in whole or in substantial part
+- commercialize or create derivative products from the framework without written permission
+- incorporate these materials into courses, products, or software offerings
+
+---
+
+## What You May Do
+
+You may:
 - Read and reference this framework for personal understanding
 - Share a link to this public repository
-- Quote brief passages with clear attribution to Good Neighbor Protocol and a link back to this repository
-- Use the ideas here to inform your own original work, provided you do not reproduce the framework wholesale
+- Quote brief passages with clear attribution to Good Neighbor Protocol and a link back to this repository, where legally permitted for review or commentary purposes
+- Use the ideas here to inform your own original thinking, provided you are not reproducing the framework wholesale
 
-You **may not**:
+---
 
+## What Requires Permission
+
+You may not, without written permission:
 - Copy, republish, or redistribute this framework or its materials in whole or in substantial part
-- Use the name "Good Neighbor Protocol," "GNP," or the CASSEROLE model in a commercial product without written permission
+- Use the name "Good Neighbor Protocol," "GNP," or the CASSEROLE model in a commercial product or service
 - Claim authorship of this framework or present it as your own
-- Create derivative works based on this framework for public or commercial distribution without written permission
+- Create derivative works based on this framework for public or commercial distribution
 
 ---
 
 ## Inquiries
 
-If you'd like to discuss licensing, partnership, or use of GNP in your organization, please open a GitHub Discussion or contact the maintainers directly.
+For licensing, partnership, organizational use, or other inquiries, please open a GitHub Discussion or contact the creator directly.
 
 ---
 
-© Good Neighbor Protocol. All rights reserved.
+*Rights remain with the creator. This notice applies to all materials in this repository.*

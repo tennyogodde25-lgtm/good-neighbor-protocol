@@ -1,63 +1,76 @@
 # Roadmap — Good Neighbor Protocol
 
-This document describes where GNP is, where it is going, and what isn't built yet.
+This document describes where GNP is, where it is going, and what is not yet built.
 
 ---
 
 ## Guiding Principle
 
-GNP will be built carefully, in layers. The framework comes first. The tools follow the framework. Nothing gets shipped that isn't ready to be useful.
+The handbook comes first. The tools follow the handbook. Nothing gets shipped that is not ready to be useful.
 
 ---
 
-## Current State
+## Stage 1 — Handbook (Current)
 
-**What exists today:**
+**What exists right now:**
+- The GNP framework and CASSEROLE model
+- The public handbook and documentation (this repository)
+- A public project home on GitHub
 
-- The GNP framework and CASSEROLE model (this repository)
-- The public handbook (these docs)
-- A public home for the project on GitHub
-
-That's it. No app. No paid tier. No integrations. Just the framework.
-
----
-
-## Planned Directions
-
-These are directions under consideration or early development. None of these exist yet. This list is not a commitment — it's a description of where the thinking is heading.
+That is it. No app. No paid tier. No integrations. The foundation is the handbook, and the handbook is here.
 
 ---
 
-### GPT Intake Assistant
+## Stage 2 — Public Repo (Current)
 
-A guided conversation tool — likely built on GPT or a similar model — that helps users apply CASSEROLE to a real request. Instead of filling out a checklist manually, you'd describe your request in natural language and the assistant would help you identify what's missing and fill in the gaps.
+**What this stage includes:**
+- This repository as the canonical home of the framework
+- All framework docs, examples, and reference material
+- GitHub Discussions as the main community forum
 
-**Status:** Concept only. Not yet built.
-
-See [gpt-intake-assistant.md](gpt-intake-assistant.md) for more on the concept.
+The repo is public for visibility, education, community discussion, and credibility. It is not a product. It is a project home.
 
 ---
 
-### Templates & Toolkit
+## Stage 3 — GPT Intake Assistant (Planned)
 
-A set of downloadable or copyable templates for common request types — design briefs, engineering tickets, cross-team asks, contractor handoffs. Formatted for the tools people already use (Notion, Google Docs, Markdown).
+**What this will be:**
+A guided assistant — built on GPT or a similar model — that helps people apply CASSEROLE to a real request through conversation. Instead of filling out a checklist manually, you describe your request and the assistant helps identify what is missing and fill in the gaps.
+
+Three core modes are planned:
+1. **Intake Mode** — shape a request from scratch using the GNP sections
+2. **Casserole Readiness Check** — review an existing request against the CASSEROLE framework
+3. **Another Casserole Pass** — a calm, structured response explaining what needs more work
+
+**Status:** Concept. Not yet built.
+
+See [gpt-intake-assistant.md](gpt-intake-assistant.md) for more detail.
+
+---
+
+## Stage 4 — Templates & Toolkit Pack (Planned)
+
+**What this will be:**
+A set of downloadable or copyable templates for common request types — startup feature requests, community program asks, small business workflow fixes, contractor handoffs, and more. Formatted for the tools people already use: Notion, Google Docs, Markdown, and others.
 
 **Status:** Not yet built.
 
 ---
 
-### Middleware / App
+## Stage 5 — Prototype App or Middleware (Future Vision)
 
-A lightweight tool that sits alongside existing project management tools and helps teams apply GNP at the point of request creation — without replacing whatever they're already using.
+**What this might become:**
+A lightweight structured intake tool — either a standalone app or a middleware layer that sits alongside existing project management tools and helps teams apply GNP at the moment a request is created.
 
-**Status:** Concept only. Significant work to define and build.
+This is a vision, not a near-term plan. It will not be built until the framework and earlier tools are stable and tested.
+
+**Status:** Concept only. Significant definition and development work required.
 
 ---
 
-## What Is NOT On the Roadmap
+## What Is Not on the Roadmap
 
-To be clear about what this project is not pursuing (at this time):
-
+To be clear about what this project is not pursuing at this time:
 - A full project management platform
 - A replacement for Jira, Asana, Linear, or similar tools
 - A public API or developer ecosystem
@@ -67,9 +80,9 @@ To be clear about what this project is not pursuing (at this time):
 
 ## A Note on Timelines
 
-No specific timelines are published here because the framework comes before the tools. Work on the app or assistant doesn't start until the framework is stable enough to warrant it.
+No specific timelines are published here. The framework comes before the tools, and the tools are built in the order they become useful — not the order that sounds most impressive.
 
-When there is something to ship, this document will be updated.
+When something ships, this document will be updated.
 
 ---
 
@@ -77,4 +90,4 @@ When there is something to ship, this document will be updated.
 
 Watch this repository for updates. GitHub Discussions are the main forum for conversation about where the project is heading.
 
-If you have thoughts on what would make GNP more useful — based on using CASSEROLE with a real team or project — that's the kind of input that shapes what gets built next.
+If you have thoughts on what would make GNP more useful — based on applying it to real requests — that is the kind of input that shapes what gets built next.

@@ -1,0 +1,35 @@
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Node / JS (if tooling is ever added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if tooling is ever added)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+dist/
+build/
+
+# Misc build output
+*.log
+*.tmp
+*.cache
+
+# Local environment files
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+*.iml

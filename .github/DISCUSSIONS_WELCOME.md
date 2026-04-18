@@ -1,31 +1,48 @@
-# Discussions Are Welcome Here
+# Welcome to Good Neighbor Protocol Discussions
 
-GitHub Discussions is the main forum for conversation about Good Neighbor Protocol.
+This is the main forum for conversation about Good Neighbor Protocol.
 
----
-
-## What to discuss
-
-- **Questions** — If something in the handbook isn't clear, ask. There are no bad questions here.
-- **How you've used it** — If you've applied CASSEROLE to a real request or project, we'd love to hear what worked and what didn't.
-- **Ideas and feedback** — Thoughts on the framework, the docs, or where this is heading.
-- **Edge cases** — Situations where the framework felt awkward, incomplete, or hard to apply.
+Pull up a chair.
 
 ---
 
-## What not to use Discussions for
+## What This Space Is For
 
-- Bug reports for software (there isn't any yet)
-- Requests for help with unrelated tools or platforms
-- Anything that should be a direct message
+**Handoff stories and examples**
+Have you applied CASSEROLE to a real request? Did it help clarify something that was stuck? Did it reveal a gap you hadn't noticed? Share what happened. Real examples make this framework stronger.
+
+**Chaos to casserole moments**
+Messy requests that got shaped into clear ones. Before/afters from your own work. The moment you realized what was actually being asked. These conversations are the best part.
+
+**Questions about the framework**
+If something in the docs is unclear or you want to think through how to apply GNP to a specific situation, ask here. There are no bad questions.
+
+**Tool adaptations**
+GNP is meant to work alongside the tools you already use — Notion, Jira, Slack, Linear, email, wherever. If you've adapted it to fit your workflow, we'd like to hear how.
+
+**Ideas for the future**
+Thoughts on the GPT assistant concept, the templates, the possible app. What would make GNP more useful to you? What is missing?
+
+**Handbook feedback**
+Questions, reactions, disagreements, or suggestions about the framework itself. The handbook comes first, and this is where the handbook gets better.
 
 ---
 
-## A note on tone
+## A Note on Tone
 
 GNP is about clarity and respect in how we communicate. That applies here too.
 
 Be direct. Be honest. Disagree constructively. Assume good intent.
+
+The receiving side deserves protection — in collaboration and in conversation.
+
+---
+
+## Not Sure Where to Start?
+
+If you're new here, start by reading the [README](../README.md) and the [FAQ](../docs/faq.md). Then come back and introduce yourself.
+
+We're glad you're here.
 
 ---
 

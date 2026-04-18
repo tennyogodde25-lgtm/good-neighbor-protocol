@@ -1,41 +1,41 @@
 # Notice — Good Neighbor Protocol
 
-Good Neighbor Protocol (GNP) is a proprietary framework for structured collaboration and handoff clarity.
+**Copyright © 2026 Kayla Mon'Cheri Campbell. All rights reserved.**
 
 ---
 
-## Intellectual Property
+This repository exists for reference, education, framework visibility, and project development.
 
-All content in this repository — including the framework, the CASSEROLE model, handbook materials, checklists, documentation, and supporting assets — is the exclusive intellectual property of the creators of Good Neighbor Protocol.
+It is not released under an open-source software license. No broad reuse rights are granted by making this repository public.
 
-Unauthorized reproduction, distribution, modification, or commercial use of any part of this work is prohibited.
+Rights remain with the creator.
 
 ---
 
-## No Open Source License
+## What This Covers
 
-This project does not carry an open source license. No permission is granted by default to use, copy, modify, or distribute this work beyond reading it in this repository.
+All materials in this repository — including but not limited to the framework, the CASSEROLE model, handbook text, documentation, checklists, templates, and supporting assets — are the exclusive intellectual property of Kayla Mon'Cheri Campbell.
 
-See [RIGHTS.md](RIGHTS.md) for a full statement of permitted and prohibited use.
+These materials may not be copied into products, courses, or software offerings without written permission. Unauthorized reproduction, redistribution, modification, or commercial use of any part of this work is not permitted.
 
 ---
 
 ## Trademarks
 
-"Good Neighbor Protocol," "GNP," and "CASSEROLE" (as used within this framework) are unregistered marks of the framework's creators. Use of these names in commercial contexts requires written permission.
+"Good Neighbor Protocol," "GNP," and "CASSEROLE" (as used within this framework) are unregistered marks of the creator. Use of these names in commercial contexts requires written permission.
 
 ---
 
 ## Third-Party Content
 
-This repository does not currently incorporate third-party open source software or licensed content. If that changes, this notice will be updated accordingly.
+This repository does not currently incorporate third-party open-source software or licensed content. If that changes, this notice will be updated accordingly.
 
 ---
 
 ## Contact
 
-For questions about use, licensing, or attribution, open a GitHub Discussion or reach out through the contact information provided by the maintainers.
+For questions about use, licensing, or attribution, open a GitHub Discussion or reach out through the contact information provided by the creator.
 
 ---
 
-© Good Neighbor Protocol. All rights reserved.
+See [RIGHTS.md](RIGHTS.md) for a full statement of permitted and prohibited use.

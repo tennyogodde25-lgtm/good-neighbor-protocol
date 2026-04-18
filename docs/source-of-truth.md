@@ -4,219 +4,311 @@
 
 ---
 
-## What Is Good Neighbor Protocol?
+## Part 1 — Project Identity
 
-**Good Neighbor Protocol (GNP)** is a handbook-backed framework for turning messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests.
+**Project Name:** Good Neighbor Protocol (GNP)
 
-It exists because most collaboration problems aren't about tools — they're about the moment a request leaves one person's head and enters another person's hands. That moment is where things get dropped, misread, or quietly resented.
+**Core Tagline:** Good neighbors bring casseroles, not chaos.
 
-GNP gives that moment a structure.
+**Core Idea:**
+
+The Good Neighbor Protocol is a handbook-backed framework for helping people turn messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests.
+
+It exists because too many people hand off ideas badly:
+- vague tickets
+- rushed asks
+- moving goalposts
+- hidden assumptions
+- underexplained requests
+- emotional urgency without structure
+- requests that force other people to guess what is actually being asked
+
+GNP is meant to reduce preventable chaos in collaboration.
+
+It helps people:
+- clarify what they mean
+- define the real problem
+- state the current reality
+- define desired outcomes
+- name risks and sensitive stakes
+- set scope and limits
+- explain reasoning
+- avoid dumping unfinished confusion onto other people
+
+GNP is built on the belief that **clarity is kindness.**
+
+It treats structure as a form of care, not a punishment.
 
 ---
 
-## The Core Phrase
+## Part 2 — What GNP Is / What GNP Is Not
+
+**What GNP Is:**
+- a framework
+- a protocol for collaboration
+- a handbook-backed methodology
+- a shared language for better handoffs
+- a way to turn messy requests into structured ones
+- a bridge between vision and execution
+- a kindness-through-structure model
+
+**What GNP Is Not:**
+- not a replacement for Jira, GitHub, Slack, Asana, Linear, ClickUp, Trello, email, or existing work tools
+- not a full software platform yet
+- not an attempt to make people robotic
+- not a punishment for messy thinkers
+- not corporate jargon disguised as wisdom
+- not a demand that every idea arrive perfect
+
+**Current State:**
+
+Right now, GNP exists first as:
+- a handbook/framework
+- a public project
+- a teaching tool
+- a set of concepts, examples, and future plans
+
+**Future Vision:**
+
+In the future, GNP may grow into:
+- a GPT assistant
+- templates and toolkit packs
+- a structured intake app
+- middleware that helps teams shape requests before they hit dev tools
+
+**Important:** The future platform is a vision, not the present reality. Do not write or read this project as though the software already exists.
+
+---
+
+## Part 3 — Who GNP Is For
+
+GNP is for:
+- founders
+- clients
+- developers
+- project managers
+- designers
+- operators
+- agencies
+- nonprofits
+- community programs
+- small businesses
+- teams where one person needs to hand something meaningful to another person
+
+It is especially useful where people are trying to:
+- ask for something to be built
+- explain a feature
+- request a workflow change
+- clarify scope
+- reduce confusion
+- stop preventable rework
+- avoid burning out the people receiving the work
+
+---
+
+## Part 4 — The Central Metaphor
+
+The core image of GNP is:
 
 > **Good neighbors bring casseroles, not chaos.**
 
-This phrase is not decoration. It is the framework's operating principle.
+In this framework:
+- a casserole is not perfection
+- a casserole is something prepared enough to be carried
+- a casserole has shape, care, thought, and structure
+- chaos is when someone dumps ingredients on another person and expects them to cook the whole meal while also guessing what dinner was supposed to be
 
-A casserole is ready. It's labeled. You know what's in it. It doesn't require the recipient to go shopping, ask six clarifying questions, or guess at the oven temperature. It arrives complete enough to be useful.
-
-Good handoffs work the same way.
-
----
-
-## The Core Belief
-
-> **Clarity is kindness.**
-
-Vague requests put the burden of interpretation on the person receiving them. That burden compounds: it wastes time, introduces risk, creates resentment, and often produces the wrong output anyway.
-
-Being clear — genuinely, specifically, helpfully clear — is an act of care for the people you work with. It is not bureaucratic. It is not cold. It is kind.
+The metaphor is not decoration. It is the framework's operating principle. The repo should feel human, thoughtful, warm, practical, metaphor-aware, clear, and serious without sounding stiff.
 
 ---
 
-## What GNP Is
+## Part 5 — The CASSEROLE Framework
 
-**GNP is a framework.**
-It provides a structure for requests and handoffs. It doesn't replace your existing tools — it improves the quality of what you put into them.
+CASSEROLE is the mnemonic at the heart of GNP.
 
-**GNP is a collaboration protocol.**
-It gives teams, partners, and individuals a shared vocabulary for what a good request looks like. When everyone speaks the same language, less gets lost in translation.
+It stands for:
 
-**GNP is a shared language for better handoffs.**
-"CASSEROLE" isn't just an acronym — it's a shared reference point. When someone says "what's the Ownership here?" or "let's check the Scope," everyone knows what they mean.
+**C — Clarity**
+Is the ask understandable? Can another person tell what is being requested without having to guess at the meaning?
 
-**GNP is a bridge between vision and execution.**
-The person who has the idea and the person who has to build it rarely see the same picture. GNP helps close that gap — not by eliminating the gap, but by making it navigable.
+**A — Alignment**
+Are the people involved solving the same problem, or are they carrying different pictures of what the request is about?
 
----
+**S — Scope**
+What is actually included in this ask? What is being requested right now?
 
-## What GNP Is Not
+**S — Safety**
+What sensitive stakes are involved? Does this request touch people, data, privacy, access, or situations that require extra care?
 
-- **Not a replacement for existing tools.** GNP is not Jira, GitHub, Slack, Asana, Linear, ClickUp, Trello, or email. Use those tools. GNP is what you do before you open them.
-- **Not a full software platform (yet).** As of this writing, GNP exists as a handbook and framework. A future toolkit, GPT assistant, and middleware app are on the roadmap — but they don't exist yet.
-- **Not open source at this time.** All rights are reserved. See [RIGHTS.md](../RIGHTS.md) and [NOTICE.md](../NOTICE.md).
+**E — Expectations**
+What does success look like? What does "done," "better," or "ready" actually mean in this case?
 
----
+**R — Reasonability**
+Is this request realistic, fair, and proportionate to the time, resources, complexity, and phase of the work? Or is something large being described as though it were small and simple?
 
-## The CASSEROLE Framework
+**O — Ownership**
+Who is responsible for what? Who is asking, who is carrying, who is deciding, and who remains accountable for the truth of the request?
 
-CASSEROLE is the operational core of GNP. It is a nine-element checklist for evaluating and completing a handoff before it is passed on.
+**L — Limits**
+What boundaries, constraints, non-goals, or realities need to be named so the work does not quietly expand into something else?
 
-Each letter represents a question that the request should be able to answer.
+**E — Explain-Why**
+What reasoning supports this request? Why does this path make sense, and what assumptions are being made along the way?
 
----
-
-### C — Clarity
-
-**What exactly is being asked?**
-
-The request should be specific enough that someone unfamiliar with its backstory could read it and understand what's needed. Clarity is not about length — a clear request can be brief. It means the core ask is unambiguous.
-
-Questions to ask:
-- Can someone read this and act on it without asking for clarification?
-- Is the output or deliverable described?
-- Is there any language that is vague by habit ("make it better," "just a quick thing")?
+*Note: This acronym must be spelled exactly this way. Do not swap out Reasonability. Do not replace or rename items.*
 
 ---
 
-### A — Alignment
+## Part 6 — The Core GNP Structure
 
-**Does everyone agree on the goal?**
+The core structure of the Good Neighbor Protocol is:
 
-Alignment means the person making the request and the person receiving it understand what success means — before the work begins. Misaligned goals are the most expensive kind of problem because they don't surface until late.
+1. Problem & People
+2. Current Reality
+3. Desired Outcome
+4. Data & Safety
+5. Scope & Constraints
+6. Risk & Compliance
+7. Explain-Why Notes
+8. Neighbor Pledge
 
-Questions to ask:
-- Has the goal been stated, not assumed?
-- Is this consistent with broader priorities or direction?
-- If multiple people are involved, do they agree on what they're building toward?
+These sections help turn a messy request into a carryable handoff.
 
----
+**Problem & People:** What is actually going wrong, and who is affected?
 
-### S — Scope
+**Current Reality:** What is happening now? What is the present situation, workflow, or broken pattern?
 
-**What's in, and what's out?**
+**Desired Outcome:** What should be true if this goes well? What does success actually look like?
 
-Scope defines the edges of the request. Without edges, a request can grow infinitely. Defining scope is not about being restrictive — it's about being honest about what is actually being asked.
+**Data & Safety:** What information, people, privacy concerns, or other sensitive stakes are involved?
 
-Questions to ask:
-- What is explicitly included in this request?
-- What is explicitly excluded?
-- Is there anything that might reasonably be assumed to be included but isn't?
+**Scope & Constraints:** What is included, excluded, and limited? What are the real constraints?
 
----
+**Risk & Compliance:** What could go wrong, and what rules, approvals, or safeguards apply?
 
-### S — Safety
+**Explain-Why Notes:** Why does this path make sense? What assumptions or decisions should be visible instead of hidden?
 
-**What should not be touched, broken, or at risk?**
-
-Every request exists inside a larger context. Safety identifies the things that must not be disturbed — existing systems, relationships, data, commitments, or constraints — so the person carrying the request knows what to protect.
-
-Questions to ask:
-- Are there dependencies or integrations that could be disrupted?
-- Are there relationships or agreements that constrain how this should be approached?
-- Is there anything that has already caused problems and should be treated carefully?
+**Neighbor Pledge:** What is the requester or team committing not to do? This is the responsibility and ethics layer.
 
 ---
 
-### E — Expectations
+## Part 7 — Handbook Structure Summary
 
-**What does "done" look like?**
+The handbook currently has 11 parts:
 
-Expectations describe the finish line. They are different from scope (which describes what you're doing) — expectations describe what completion actually means. They include format, quality level, and criteria for acceptance.
+1. Opening / Hook
+2. The Cost of Chaos
+3. What GNP Is
+4. The Core Protocol
+5. The Commandments / Rules
+6. Chaos to Casserole
+7. The Handoff Loop
+8. Real-World Examples
+9. The Neighbor Mindset
+10. For the People on the Receiving Side
+11. Closing
 
-Questions to ask:
-- What is the expected output or deliverable?
-- What format should it be in?
-- How will we know it's done?
-- What's the quality bar?
-
----
-
-### R — Reasonability
-
-**Is the ask actually doable?**
-
-A request that can't be fulfilled in the way it's written isn't a request — it's a trap. Reasonability checks whether the ask is realistic given the constraints of time, resources, and capability.
-
-Questions to ask:
-- Is the timeline achievable?
-- Are the resources available?
-- Is this ask within the realistic capability of the person receiving it?
-- Has anything been overlooked that would make this undoable as written?
+The handbook is the foundation and teaching layer of GNP. All other documents, tools, and companion materials derive from it. When in doubt, the handbook comes first.
 
 ---
 
-### O — Ownership
+## Part 8 — Key Phrases to Preserve
 
-**Who is responsible for what?**
+These phrases and ideas should be preserved across the project where useful:
 
-Ownership is not about blame. It's about clarity on who is making decisions, who is doing the work, and who needs to be consulted or informed. Ambiguous ownership is one of the most common sources of dropped balls.
-
-Questions to ask:
-- Who is the decision-maker on this request?
-- Who is doing the work?
-- Who needs to review or approve?
-- Who should be kept in the loop without being asked to act?
-
----
-
-### L — Limits
-
-**What are the constraints?**
-
-Limits are the real-world edges of the request: budget, timeline, tool choices, access levels, legal considerations, or other hard constraints. They differ from scope in that they are external — they aren't chosen, they're given.
-
-Questions to ask:
-- What are the non-negotiable constraints?
-- Is there a hard deadline?
-- Are there budget, tool, or access constraints?
-- Are there legal, compliance, or policy limits that apply?
+- Good neighbors bring casseroles, not chaos.
+- Clarity is kindness.
+- This needs another casserole pass.
+- The receiving side should not have to build the missing structure alone.
+- A casserole is not perfect; it is prepared.
+- GNP exists to make handoffs more survivable, legible, respectful, accountable, and humane.
+- The future platform is a vision, not the current reality.
+- The handbook comes first.
 
 ---
 
-### E — Explain Why
+## Part 9 — Real-World Example Families
 
-**What is the purpose behind the ask?**
+These are the canonical example types used in docs/examples.md and referenced elsewhere:
 
-Explaining why is the final element — and one of the most powerful. When people understand why something matters, they make better decisions, ask better questions, and catch problems earlier. Context is not overhead. It's information.
+**1. Startup feature request**
+Chaos: A vague request for "a dashboard or something" because everybody keeps asking for updates.
+Casserole: Clarified as a visibility problem, with defined users, current reality, desired outcome, scope, constraints, and risks.
 
-Questions to ask:
-- Why does this request exist?
-- What problem does it solve?
-- What happens if it isn't done, or isn't done well?
-- Is there anything about the purpose that would change how someone approaches the work?
+**2. Youth/community program communication issue**
+Chaos: "Can you make some kind of parent portal?"
+Casserole: Clarified around parent communication, minors' data, scope limits, privacy considerations, and realistic first-version boundaries.
 
----
-
-## Current State of GNP
-
-As of this writing, GNP exists as:
-
-- A **handbook and framework** (this repository)
-- A **public project home** for the framework's ongoing development
-
-It does not yet exist as:
-- A software platform or app
-- A paid product or subscription service
-- An officially registered entity (though this may change)
-
-**Roadmap (high level):**
-- A GPT-powered intake assistant to help users apply CASSEROLE to real requests
-- A toolkit of templates and worksheets
-- A possible middleware layer or standalone app for teams
-
-None of these exist yet. This document will be updated as they are built.
+**3. Small business workflow fix**
+Chaos: "We need to automate our intake because it's getting ridiculous."
+Casserole: Clarified into a structured intake consistency problem, with scope, current reality, success criteria, and reasonable boundaries.
 
 ---
 
-## Maintaining This Document
+## Part 10 — The Receiving Side
 
-This file is the source of truth for the GNP framework. Changes to the framework's definition, principles, or CASSEROLE elements should be reflected here first, before being propagated to other documents.
+A core part of GNP is that the receiving side deserves protection too.
 
-If you are contributing to this framework's development, keep this file current.
+Developers, project managers, reviewers, builders, operators, designers, and team stewards should not have to absorb endless fog, invisible labor, moving goalposts, and preventable confusion.
+
+GNP is not only about teaching requesters to ask better. It is also about reducing wasted time, energy, mental bandwidth, and avoidable redo loops for the people carrying the work.
+
+The phrase "another casserole pass" is especially important here. It means:
+- this request still needs more shape
+- it is not an insult
+- it is not "start over from scratch"
+- it is a calm, structured way to say: please check the missing ingredients and bring this back with more shape
 
 ---
+
+## Part 11 — GPT / Future Tool Vision
+
+One future companion tool is the **GNP Intake Assistant** — a GPT concept, not yet a full app.
+
+Its three main modes:
+
+**1. Intake Mode** — helps someone shape a request from scratch using the GNP sections.
+
+**2. Casserole Readiness Check** — reviews an existing request and checks whether it is casserole-ready.
+
+**3. Another Casserole Pass** — returns a calm, structured response explaining what is missing and what needs another pass.
+
+The GPT is not the same thing as the future middleware or app. It is an early interactive assistant layer.
+
+---
+
+## Part 12 — Rights & Legal Position
+
+This project is not open source.
+
+**Copyright © 2026 Kayla Mon'Cheri Campbell. All rights reserved.**
+
+The framework, handbook text, terminology, and related materials are protected. Viewing this repository does not grant permission to reproduce, republish, redistribute, commercialize, or create derivative products from the materials without written permission.
+
+The project is being shared publicly for visibility, credibility, education, community discussion, and future development. Rights remain with the creator.
+
+See [RIGHTS.md](../RIGHTS.md) and [NOTICE.md](../NOTICE.md) for the full legal notice.
+
+---
+
+## Part 13 — Tone Guide
+
+Tone should be:
+- warm
+- clear
+- humane
+- thoughtful
+- smart
+- practical
+- not robotic
+- not corporate fluff
+- not overhyped
+- not academic for the sake of sounding impressive
+
+The repo should feel like a serious public project home for a real framework that is still growing.
+
+---
+
+*This document is maintained as the single source of truth for the Good Neighbor Protocol. Changes to the framework's definition, principles, or CASSEROLE elements should be reflected here first.*
 
 *Last substantively reviewed: 2026*

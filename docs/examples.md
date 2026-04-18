@@ -1,108 +1,127 @@
 # Examples — Good Neighbor Protocol
 
-These examples show what a request looks like before and after applying the CASSEROLE framework.
+These are before/after examples showing what requests look like before and after applying the CASSEROLE framework.
 
-The goal isn't to turn every request into a formal document. The goal is to show how much useful information is often missing — and how quickly it can be added.
-
----
-
-## Example 1: The Design Request
-
-### Before
-
-> "Hey, can you update the homepage? The CEO wants it to feel more modern. Thanks."
-
-### What's missing
-
-- **Clarity:** "Feel more modern" is not actionable. What does modern mean in this context?
-- **Scope:** Is this the whole homepage or a specific section? Does it include copy changes or just visuals?
-- **Expectations:** What format is the deliverable — a mockup, a live update, a Figma file?
-- **Safety:** Is there anything on the homepage that shouldn't change?
-- **Reasonability:** When is this needed? What resources are available?
-- **Ownership:** Who approves the change before it goes live?
-- **Explain Why:** Why now? What's driving this?
-
-### After (CASSEROLE applied)
-
-> "Can you update the hero section of the homepage to feel cleaner and less cluttered? The CEO mentioned that the current version feels dated compared to our competitors — specifically [Competitor A] and [Competitor B].
->
-> In scope: the hero section only (headline, subhead, and hero image). Out of scope: the navigation, footer, and any copy below the fold.
->
-> Please don't touch the email signup form — we're running an A/B test on it and any changes would break the test.
->
-> Deliverable: a Figma mockup for review, not a live change. Quality bar: it should look intentional and consistent with the updated brand guidelines in [link].
->
-> Deadline: first draft by end of day Thursday so the CEO can review Friday morning.
->
-> Owner of approval: [Name]. You should flag [Name] if you hit any blockers.
->
-> Why this matters: we have an investor meeting next week and the CEO wants the site to not feel embarrassing."
+The chaos versions are real. They are the kinds of messages people send every day. The casserole versions are not formal documents — they are the same request with enough shape to actually be carried.
 
 ---
 
-## Example 2: The Data Request
+## Example 1: Startup Feature Request
 
-### Before
+### Chaos Version
 
-> "Can you pull the numbers on last quarter and send them over?"
+> "We need a dashboard or something — everyone keeps asking for updates and we can't keep doing this manually."
 
 ### What's missing
 
-- **Clarity:** What numbers? Which data source?
-- **Scope:** "Last quarter" — by whose calendar?
-- **Expectations:** In what format? A spreadsheet? A summary email? A slide?
-- **Ownership:** Who is this going to, and who needs to approve it before it goes out?
-- **Explain Why:** What decision is this informing?
+- **Clarity:** "A dashboard or something" is not a request. What kind of updates? For whom?
+- **Alignment:** Is this a reporting problem, a communication problem, a workflow problem, or all three?
+- **Scope:** Is this one screen? A new product feature? An internal tool? An external one?
+- **Safety:** Who has access? Is any of this data sensitive?
+- **Expectations:** What does a successful dashboard look like — what does it show, and to whom?
+- **Reasonability:** How complex is the data? Is this a week of work or a quarter?
+- **Ownership:** Who is deciding what goes on this dashboard? Who approves it before it ships?
+- **Explain-Why:** What is the real problem being solved — what happens if updates keep going out manually?
 
-### After (CASSEROLE applied)
+### Casserole Version
 
-> "Can you pull our Q1 2026 revenue by region from the Salesforce dashboard (not from the spreadsheet — that one has known errors) and format it as a one-page summary table?
+> "We have a visibility problem. Our clients and internal stakeholders keep asking for project status updates, and right now one of us responds manually each time. It is taking up several hours a week and the information is inconsistent.
 >
-> Include: total revenue, revenue by region, and comparison to Q1 2025. Don't include individual deal data or anything at the rep level — we only need the rollup.
+> We need a simple dashboard that shows current project status for each active client — not detailed data, just high-level milestones: what's complete, what's in progress, what's next, and any blockers.
 >
-> Deliverable: a Google Doc with a clean table, sent directly to me by Wednesday at noon. I'll review and send it to the board myself — you don't need to send it anywhere else.
+> In scope: a read-only view accessible to clients via a link. Out of scope: editing capabilities, payment data, or anything beyond project milestones in this first version.
 >
-> Why this matters: we have a board call Thursday afternoon and they'll ask about regional performance. I need to be able to answer without looking surprised."
+> This is client-facing, so anything involving names, timelines, or project details needs to be treated as confidential.
+>
+> Success looks like: a client can check their own project status without emailing us. We consider it done when we can turn off the manual update emails for at least 80% of clients.
+>
+> Constraints: we need a working version within six weeks. We are not ready to build a full product — this can be scrappy as long as it is accurate and accessible.
+>
+> Owner: [Founder] approves scope and design. [Dev lead] owns delivery.
+>
+> Why this matters: the manual update process is burning time we don't have, and inconsistent updates are starting to affect client trust."
 
 ---
 
-## Example 3: The Engineering Request
+## Example 2: Youth / Community Program Communication Issue
 
-### Before
+### Chaos Version
 
-> "Can you fix the login issue? A few people are complaining."
+> "Can you make some kind of parent portal? Parents are always reaching out in a million different ways and we can't keep track."
 
 ### What's missing
 
-- **Clarity:** What login issue? What's the actual symptom?
-- **Safety:** What does a "fix" touch? Could changes affect other auth flows?
-- **Expectations:** Fix in production? Or a fix that goes through staging first?
-- **Reasonability:** Is there a sense of urgency, or is this a nice-to-have?
-- **Explain Why:** Who is affected and how badly?
+- **Clarity:** What problem is the portal solving — information delivery, two-way messaging, scheduling, all of the above?
+- **Safety:** This involves minors and their families. Privacy and data handling requirements are significant.
+- **Scope:** Is this an announcement board? A messaging system? A document repository? A scheduling tool?
+- **Reasonability:** "A parent portal" could be a two-week project or a two-year platform. This needs scoping.
+- **Expectations:** What does a working version look like — not the final version, the first version that actually helps?
+- **Limits:** What are the compliance requirements (FERPA, COPPA, local regulations)? What tech stack or tools are already in use?
 
-### After (CASSEROLE applied)
+### Casserole Version
 
-> "We're seeing reports from three enterprise customers that the SSO login is timing out on the first attempt. They can refresh and it works on the second try, but it's causing friction and one customer mentioned it in their renewal conversation.
+> "We run a youth program and parent communication is currently scattered across text messages, emails, phone calls, and social media DMs. Staff are losing time managing multiple channels, and important information is getting missed.
 >
-> The issue appears to be in the SSO handoff — specifically the redirect timing after the IdP response. Our initial suspicion is a race condition but we haven't confirmed that yet.
+> The real problem is: there is no single place for parents to find program announcements, schedule updates, and basic program information.
 >
-> Please investigate and propose a fix. Don't push anything directly to production — any fix should go through staging and be reviewed before it ships.
+> For a first version, we need a one-way communication channel — a simple way to post announcements that parents can access in one place. We are not asking for two-way messaging or a full portal in this version.
 >
-> Don't touch the email/password login flow. That's working and we don't want to risk it.
+> Safety: all families enrolled in the program are parents or guardians of minors. Any solution must comply with our organization's data privacy policy and applicable youth program regulations. No individual child data should be visible to other families.
 >
-> Timeline: we'd like a root cause identified by end of this week and a fix staged by early next week.
+> In scope: announcement posting, accessible by a shareable link or login. Out of scope: direct messaging between parents and staff, payment processing, or enrollment forms in this version.
 >
-> Owner: [Engineering Lead] has final approval on the fix before it ships.
+> Success looks like: staff can post one announcement and all enrolled families see it without the team needing to send it through multiple channels.
 >
-> Why this matters: this is showing up in an enterprise renewal conversation and we need it resolved before that call."
+> Constraints: we have a small budget and no dedicated tech staff. Any solution needs to be something non-technical staff can maintain.
+>
+> Owner: [Program Director] approves content and access. [Operations Lead] owns tool selection and setup.
+>
+> Why this matters: missed communications have caused confusion at pickup, missed consent forms, and parent frustration. This is affecting trust in the program."
+
+---
+
+## Example 3: Small Business Workflow Fix
+
+### Chaos Version
+
+> "We need to automate our intake because it's getting ridiculous. People are falling through the cracks and I can't keep doing this manually."
+
+### What's missing
+
+- **Clarity:** What is the intake process? What exactly is broken — volume, inconsistency, missing information, follow-up gaps?
+- **Current Reality:** What does the existing process look like, step by step?
+- **Scope:** Are we automating the whole intake process or just a specific broken part?
+- **Expectations:** What does "fixed" look like — fewer dropped leads, consistent data, automatic follow-ups, all of the above?
+- **Reasonability:** What tools are already in use? What is the budget and technical capacity?
+- **Explain-Why:** What is the real cost of the current situation — lost clients, staff time, reputation?
+
+### Casserole Version
+
+> "Our current client intake process is entirely manual — a mix of email threads, handwritten notes, and follow-up reminders stored in a personal task list. When inquiries come in, the process for collecting information, following up, and scheduling a first call is inconsistent.
+>
+> The result: some prospective clients fall through without a response, we are collecting different information from different people, and there is no reliable record of who is in the pipeline.
+>
+> The specific problem we need to solve: intake consistency. Every new inquiry should go through the same process, collect the same basic information, and trigger the same follow-up steps — without someone having to remember to do it manually each time.
+>
+> In scope: a form for new inquiries that captures contact info, service interest, and timeline; an automatic confirmation to the person who submitted it; and a trigger that notifies the right staff member to follow up. Out of scope: full CRM implementation, payment processing, or scheduling automation in this version.
+>
+> Success looks like: zero dropped inquiries. If someone submits a form, we know about it and there is a clear next step.
+>
+> Constraints: we use [existing tools] and do not have budget for a new platform. Any solution needs to work within what we already have or be inexpensive and simple enough for non-technical staff to maintain.
+>
+> Owner: [Owner/Manager] approves the process design. [Staff Lead] owns daily maintenance.
+>
+> Why this matters: we have lost at least three confirmed clients in the last two months because follow-up fell through the cracks. That is real revenue and real reputation damage."
 
 ---
 
 ## A Note on These Examples
 
-None of these examples required a long meeting or a formal intake process. They required someone to slow down for five minutes and ask: *what does the person receiving this actually need to know?*
+None of these required a long meeting or a formal intake process. They required someone to slow down and ask: *what does the person receiving this actually need to know to start?*
 
-That's what CASSEROLE is for.
+That is what CASSEROLE is for.
+
+If a request still feels unclear after applying the framework, that is useful information too. It means the request needs another casserole pass before it goes anywhere.
 
 ---
 

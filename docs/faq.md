@@ -4,99 +4,105 @@ Honest answers to common questions.
 
 ---
 
-## What exactly is GNP?
+## What is GNP?
 
-Good Neighbor Protocol is a framework for structuring handoffs and requests. It gives the person making a request a checklist for what information to include, and gives the person receiving it a shared vocabulary for what to expect.
+Good Neighbor Protocol is a handbook-backed framework for turning messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests.
 
-It's most useful in the moment a request leaves one person's hands and lands in another's — which is also the moment most projects quietly start going sideways.
+It gives the person making a request a shared structure for what to include, and gives the person receiving it a shared language for what a good handoff looks like.
 
----
-
-## Why "casseroles"?
-
-Because a casserole is ready when it arrives. It's labeled. You know what's in it, what temperature to use, and roughly how long it takes. The recipient doesn't have to figure any of that out.
-
-Most work requests are the opposite of a casserole. They show up half-baked, undescribed, and with missing ingredients.
-
-The phrase "good neighbors bring casseroles, not chaos" is a reminder that the person making the request is responsible for making it carryable — not the person receiving it.
+It is most useful in the moment a request leaves one person's hands and lands in another's — which is also the moment most projects quietly start going sideways.
 
 ---
 
-## Is GNP a project management tool?
+## Is this just for developers?
+
+No. GNP is for anyone who hands off work to another person and needs it to actually land.
+
+That includes founders, clients, developers, project managers, designers, operators, agencies, nonprofits, community programs, and small businesses. If you have ever sent a message and gotten back something totally different from what you asked for, GNP is for you.
+
+---
+
+## Is this a project management tool?
 
 No. GNP is not a replacement for Jira, Asana, Linear, Trello, ClickUp, GitHub, Slack, or email. You should keep using whatever tools your team already uses.
 
-GNP is what happens before you open those tools. It's the thinking and structuring that makes the ticket, the Slack message, or the brief actually useful.
+GNP is what happens before you open those tools. It is the thinking and structuring that makes the ticket, the Slack message, or the brief actually useful. It does not replace your tools — it improves what you put into them.
 
 ---
 
-## Do I need to fill out the entire CASSEROLE checklist every time?
+## Is this a replacement for Jira, Slack, or similar platforms?
 
-No. Use your judgment.
-
-For a quick, low-stakes internal request, you might only need to check three or four elements. For a complex cross-team project or a request going to an external partner, you might want all nine.
-
-The checklist exists to surface gaps, not to create paperwork. If an element isn't relevant for a particular request, skip it and note why.
+No. See above. GNP lives upstream of those platforms. It is not trying to replace them.
 
 ---
 
-## Is there a software app?
+## Is this already a software platform?
 
-Not yet. GNP currently exists as a handbook and framework. A future GPT assistant, toolkit, and possible app are on the roadmap, but none of those exist yet.
+No. Right now, GNP exists as a handbook and framework. This repository is its public home.
 
-See [roadmap.md](roadmap.md) for more detail on what's planned.
+There is no app. No subscription. No paid tier. A future GPT assistant, templates, and a possible middleware layer or app are on the roadmap — but none of those exist yet. The project does not pretend otherwise.
 
----
-
-## Can I use this framework in my company or team?
-
-Please read [RIGHTS.md](../RIGHTS.md) before doing so. GNP is proprietary, and wholesale reproduction or redistribution requires permission. Using the ideas here to inform your own thinking is fine; repackaging and redistributing the framework as your own is not.
-
-If you'd like to license GNP for use in your organization, open a GitHub Discussion or contact the maintainers.
+See [roadmap.md](roadmap.md) for what is planned.
 
 ---
 
-## Can I contribute?
+## What does "casserole" mean here?
 
-GNP is not open source. The framework is maintained by its creators.
+A casserole is not perfection. It is something prepared enough to be carried.
 
-That said, questions, feedback, and discussion are welcome via GitHub Discussions. If you've used CASSEROLE on a real project and have observations about what worked or didn't, that kind of input is genuinely useful.
+It has shape, care, thought, and structure. It arrives ready. The recipient knows what is in it, what to do with it, and roughly what to expect.
 
----
-
-## Why isn't this open source?
-
-Because we want to maintain the integrity of the framework as it develops. Premature fragmentation — people forking and re-releasing their own modified versions before the framework is stable — tends to produce confusion more than value.
-
-That position may change in the future. For now, the framework is proprietary.
+Most work requests are the opposite. They arrive half-formed, undescribed, with missing ingredients. The phrase "good neighbors bring casseroles, not chaos" is a reminder that the person making the request is responsible for making it carryable — not the person receiving it.
 
 ---
 
-## What does "Clarity is kindness" mean?
+## What if a request needs another casserole pass?
 
-It means that vagueness is not neutral. When a request is unclear, the burden of interpretation falls on the person receiving it. They have to guess what you meant, ask clarifying questions that interrupt their work, or make a decision on your behalf that they shouldn't have to make.
+"Another casserole pass" is shared protocol language in GNP. It means:
 
-Being specific and complete is not bureaucratic or slow. It is a form of care for the people you work with.
+- this request still needs more shape before it can be acted on
+- it is not an insult
+- it is not "start over from scratch"
+- it is a calm, structured way to say: please check the missing ingredients and bring this back with more definition
 
----
-
-## Who is GNP for?
-
-Anyone who hands off work to another person and wants it to actually land.
-
-That includes:
-- Managers writing briefs for their teams
-- Founders communicating with contractors or agencies
-- Developers handing off work to designers (and back)
-- Product managers writing specs for engineers
-- Operations teams coordinating across departments
-- Anyone who has ever sent a message and gotten back something totally different from what they asked for
+Asking for another casserole pass is appropriate and encouraged. It protects the receiving side from absorbing fog and doing invisible labor. It is a sign that the process is working.
 
 ---
 
-## Is this just common sense?
+## Is this framework open source?
 
-Most of it is. But common sense, in the middle of a busy day, under deadline pressure, is a lot harder to apply than it looks on paper. CASSEROLE is a structure for common sense — a way to make the obvious things hard to skip.
+No. GNP is proprietary. All rights are reserved by Kayla Mon'Cheri Campbell.
+
+This repository is public for visibility, education, and community discussion. Public visibility does not equal permission to copy, republish, commercialize, or create derivative products from the materials.
+
+See [RIGHTS.md](../RIGHTS.md) for the full statement of what is and is not permitted.
+
+---
+
+## Can I use GNP in my organization?
+
+Please read [RIGHTS.md](../RIGHTS.md) before doing so. Using the ideas here to inform your own thinking is fine. Repackaging and redistributing the framework — or incorporating it into a product, course, or commercial offering — is not permitted without written permission.
+
+For licensing inquiries, open a GitHub Discussion or contact the creator directly.
+
+---
+
+## How can I support the project?
+
+- ⭐ Star this repo
+- 💬 Share it with someone who sends unclear requests
+- ☕ [Buy me a coffee](https://buymeacoffee.com/) *(placeholder — link coming)*
+- 💛 [GitHub Sponsors](https://github.com/sponsors/) *(placeholder — link coming)*
+
+---
+
+## What does "clarity is kindness" mean?
+
+It means that vagueness is not neutral.
+
+When a request is unclear, the burden of interpretation falls on the person receiving it. They have to guess what you meant, ask clarifying questions that interrupt their work, or make a decision on your behalf that they should not have to make.
+
+Being specific and complete is not slow or bureaucratic. It is a form of care for the people you work with. The receiving side deserves that care.
 
 ---
 

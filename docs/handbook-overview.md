@@ -1,12 +1,12 @@
-# Handbook Overview — Good Neighbor Protocol
+# Handbook Overview — Good Neighbor Protocol for Build and Dev Handoffs
 
-The GNP handbook is the foundation and teaching layer of the framework. Everything else — the checklist, the examples, the future tools — derives from it.
+The Build and Dev Handoffs edition of the GNP handbook is the foundation and teaching layer of the framework. Everything else — the checklist, the examples, the future tools — derives from it.
 
 ---
 
 ## What the Handbook Is
 
-The handbook is where the ideas are explained in depth. It is not a reference doc or a quick-start guide. It is the place you go to understand *why* GNP exists and *how* to think about handoffs differently.
+The Build and Dev Handoffs handbook is where the ideas are explained in depth. It is not a reference doc or a quick-start guide. It is the place you go to understand *why* GNP exists and *how* to think about handoffs differently — specifically in the context of build requests, dev work, and the collaboration between the people asking and the people carrying.
 
 The most authoritative document in this repository is [source-of-truth.md](source-of-truth.md). When other documents conflict with it, the source of truth wins.
 
@@ -80,7 +80,7 @@ Read the [Roadmap](roadmap.md).
 
 ## A Note on What Exists Right Now
 
-The handbook comes first. The tools follow the handbook. As of this writing, GNP exists as a framework and a public project home. A future GPT assistant, templates, and a possible app are on the roadmap — but they are future plans, not current reality.
+The handbook comes first. The tools follow the handbook. As of this writing, GNP exists as the Build and Dev Handoffs handbook and a public project home. A future GPT assistant, templates, and a possible app are on the roadmap — but they are future plans, not current reality.
 
 When those things are built, this handbook will remain the foundation. Not a pitch deck. Not a product spec. The place where the ideas live.
 

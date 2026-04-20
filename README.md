@@ -1,8 +1,10 @@
-# Good Neighbor Protocol for Build & Dev Handoffs (GNP)
+# The Good Neighbor Protocol for Build and Dev Handoffs
 
 > **Good neighbors bring casseroles, not chaos.**
 
-Good Neighbor Protocol is a handbook-backed framework for turning messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests. The full handbook is available here: https://tennyogodde.gumroad.com/l/eowoat
+This repo currently focuses on the Build and Dev Handoffs edition of the Good Neighbor Protocol.
+
+This edition focuses on helping founders, clients, developers, and teams turn messy build requests into clearer, kinder, more carryable collaboration. The full Build and Dev Handoffs handbook is available here: https://tennyogodde.gumroad.com/l/eowoat
 
 It is a shared language. A collaboration protocol. A bridge between vision and execution.
 
@@ -85,9 +87,9 @@ See [docs/casserole-checklist.md](docs/casserole-checklist.md) for a full walkth
 
 ## Current Status
 
-GNP currently exists as a **handbook and framework**. This repository is its public home.
+The Good Neighbor Protocol for Build and Dev Handoffs currently exists as a **handbook and framework**. This repository is its public home.
 
-There is no app. No paid tier. No integrations. The foundation is the handbook, and the handbook is here.
+There is no app. No paid tier. No integrations. The foundation is the Build and Dev Handoffs handbook, and the handbook is here.
 
 The software, the GPT assistant, and the toolkit are future plans — real ones, but future ones. This project does not pretend otherwise.
 
@@ -112,7 +114,7 @@ GNP is independently developed. If it has been useful to you:
 
 - ⭐ Star this repo
 - 💬 Share it with someone who sends unclear requests
-- 📖 Buy the full handbook: https://tennyogodde.gumroad.com/l/eowoat
+- 📖 Buy the Build and Dev Handoffs edition of the handbook: https://tennyogodde.gumroad.com/l/eowoat
 - ☕ [Buy me a coffee](https://buymeacoffee.com/) *(placeholder — link coming)*
 - 💛 [GitHub Sponsors](https://github.com/sponsors/) *(placeholder — link coming)*
 
@@ -137,7 +139,7 @@ New to GNP? Here's a path in:
 3. Walk through [docs/casserole-checklist.md](docs/casserole-checklist.md) with a real request you're working on
 4. Browse [docs/examples.md](docs/examples.md) to see what the before/after looks like in practice
 5. Check [docs/faq.md](docs/faq.md) if you have questions
-6. Buy the full handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
+6. Buy the Build and Dev Handoffs edition of the handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
 
 Questions, thoughts, and handoff stories are welcome in [GitHub Discussions](../../discussions).
 

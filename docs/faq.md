@@ -38,11 +38,11 @@ No. See above. GNP lives upstream of those platforms. It is not trying to replac
 
 ## Is this already a software platform?
 
-No. Right now, GNP exists as a handbook and framework. This repository is its public home.
+No. Right now, GNP exists as a handbook, framework, and live companion GPT. This repository is its public home.
 
-There is no app. No subscription. No paid tier. A future GPT assistant, templates, and a possible middleware layer or app are on the roadmap — but none of those exist yet. The project does not pretend otherwise.
+There is no app. No subscription. No paid tier. The [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant) is live as a companion GPT. Templates and a possible middleware layer or app are still future directions — honest ones, but not yet built. The project does not pretend otherwise.
 
-See [roadmap.md](roadmap.md) for what is planned.
+See [roadmap.md](roadmap.md) for what is current and what is planned.
 
 ---
 

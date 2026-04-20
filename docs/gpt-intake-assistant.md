@@ -1,12 +1,16 @@
-# GNP Intake Assistant — Concept Notes
+# GNP Intake Assistant
 
-*This document describes a future tool concept. The GNP Intake Assistant does not currently exist. These are working notes on what it is intended to become.*
+*The GNP Intake Assistant is now live as a companion GPT for the Good Neighbor Protocol.*
+
+**[Try the GNP Intake Assistant →](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant)**
 
 ---
 
 ## What It Is
 
-The GNP Intake Assistant is a planned GPT-powered guided assistant — not the future middleware app, and not a replacement for the handbook. It is an early interactive layer that helps people apply the Good Neighbor Protocol to real requests through conversation rather than manual checklist completion.
+The GNP Intake Assistant is a live companion GPT for the Good Neighbor Protocol — not the future middleware app, and not a replacement for the handbook. It is an early interactive layer that helps people turn vague requests into clearer handoffs through conversation rather than manual checklist completion.
+
+It is a real, working tool. It is not yet the full structured app or middleware vision — that is a longer-term direction. This is the first interactive layer of GNP, and it is here now.
 
 The idea is simple: most people will not fill out a form. But most people will answer a question if someone asks it clearly and calmly.
 
@@ -90,15 +94,17 @@ Two to four exchanges should handle most requests. If it consistently takes more
 - Not a replacement for human judgment about whether a request is a good idea
 - Not an AI that builds things — it helps people describe things clearly
 - Not a substitute for the handbook — it is a guided application of it
-- Not the same as the future middleware or app (which would integrate with dev tools)
+- Not the same as the future middleware or app (which would integrate with dev tools directly)
 
 ---
 
 ## Current Status
 
-This is a concept. No code has been written. No GPT configuration exists yet.
+The GNP Intake Assistant is live.
 
-This document exists to capture the intent clearly enough that when the time comes to build it, the design decisions are already grounded in the framework's values.
+**[Try it here: GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant)**
+
+It is a working GPT companion — an early interactive layer of GNP. The design decisions documented here are grounded in the framework's values and reflected in how the assistant actually behaves. It is not yet the full structured intake app or middleware vision, but it is real and in use.
 
 ---
 

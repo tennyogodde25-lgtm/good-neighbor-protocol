@@ -80,7 +80,7 @@ See [docs/casserole-checklist.md](docs/casserole-checklist.md) for a full walkth
 | [docs/examples.md](docs/examples.md) | Before/after examples from real-world request types |
 | [docs/faq.md](docs/faq.md) | Common questions, honest answers |
 | [docs/roadmap.md](docs/roadmap.md) | Where this project is heading |
-| [docs/gpt-intake-assistant.md](docs/gpt-intake-assistant.md) | Notes on the future GNP Intake Assistant concept |
+| [docs/gpt-intake-assistant.md](docs/gpt-intake-assistant.md) | The GNP Intake Assistant — live companion GPT |
 | [RIGHTS.md](RIGHTS.md) | Ownership and permitted use |
 | [NOTICE.md](NOTICE.md) | Public IP and rights notice |
 
@@ -88,24 +88,33 @@ See [docs/casserole-checklist.md](docs/casserole-checklist.md) for a full walkth
 
 ## Current Status
 
-The Good Neighbor Protocol for Build and Dev Handoffs currently exists as a **handbook and framework**. This repository is its public home.
+The Good Neighbor Protocol for Build and Dev Handoffs currently exists as a **handbook, framework, and live companion GPT**. This repository is its public home.
 
 There is no app. No paid tier. No integrations. The foundation is the Build and Dev Handoffs handbook, and the handbook is here.
 
-The software, the GPT assistant, and the toolkit are future plans — real ones, but future ones. This project does not pretend otherwise.
+---
+
+## GNP Intake Assistant
+
+The GNP Intake Assistant is now live as a companion GPT.
+
+It helps users turn vague requests into clearer handoffs, check casserole-readiness, identify missing ingredients, and suggest another casserole pass when needed.
+
+**Try it here:** [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant)
+
+It is an early interactive layer of GNP — a real, working tool — but not yet the full structured app or middleware vision. See [docs/gpt-intake-assistant.md](docs/gpt-intake-assistant.md) for more detail.
 
 ---
 
-## Planned Companion Tools
+## What's Next
 
-These do not exist yet. They are honest directions for where GNP is heading:
+The GNP Intake Assistant is live. The following are honest future directions:
 
-- **GNP Intake Assistant** — a GPT-powered guided assistant with three modes: Intake Mode, Casserole Readiness Check, and Another Casserole Pass
 - **Templates & Toolkit Pack** — downloadable templates for common request types
 - **Structured Intake App** — a lightweight tool for teams at the point of request creation
 - **Middleware** — a layer that helps teams shape requests before they hit dev tools
 
-See [docs/roadmap.md](docs/roadmap.md) and [docs/gpt-intake-assistant.md](docs/gpt-intake-assistant.md) for details.
+See [docs/roadmap.md](docs/roadmap.md) for details.
 
 ---
 

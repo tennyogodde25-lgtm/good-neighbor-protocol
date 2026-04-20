@@ -82,7 +82,7 @@ Read the [Roadmap](roadmap.md).
 
 ## A Note on What Exists Right Now
 
-The handbook comes first. The tools follow the handbook. As of this writing, GNP exists as the Build and Dev Handoffs handbook and a public project home. A future GPT assistant, templates, and a possible app are on the roadmap — but they are future plans, not current reality.
+The handbook comes first. The tools follow the handbook. GNP now exists as the Build and Dev Handoffs handbook, a public project home, and a live companion GPT — the [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant). Templates and a possible app are still future directions — honest ones, but not yet built.
 
 When those things are built, this handbook will remain the foundation. Not a pitch deck. Not a product spec. The place where the ideas live.
 

@@ -1,4 +1,4 @@
-# Good Neighbor Protocol (GNP)
+# Good Neighbor Protocol for Build & Dev Handoffs (GNP)
 
 > **Good neighbors bring casseroles, not chaos.**
 

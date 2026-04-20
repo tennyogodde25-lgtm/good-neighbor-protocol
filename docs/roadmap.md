@@ -1,6 +1,6 @@
 # Roadmap — Good Neighbor Protocol
 
-This document describes where GNP is, where it is going, and what is not yet built.
+This document describes where GNP is, where it is going, and what has been built.
 
 ---
 
@@ -10,20 +10,29 @@ The handbook comes first. The tools follow the handbook. Nothing gets shipped th
 
 ---
 
-## Stage 1 — Handbook (Current)
+## Current Active Foundations
 
-**What exists right now:**
-- The GNP framework and CASSEROLE model
-- The public handbook and documentation (this repository)
-- A public project home on GitHub
+These exist right now:
 
-That is it. No app. No paid tier. No integrations. The foundation is the handbook, and the handbook is here.
+- **Published handbook** — the Build and Dev Handoffs edition of the Good Neighbor Protocol, available on Gumroad
+- **Public repository** — this GitHub repo as the canonical home of the framework, documentation, and examples
+- **Live companion GPT** — the [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant), a working GPT that helps users shape requests, check casserole-readiness, identify missing ingredients, and suggest another casserole pass when needed
+
+That is the current foundation. The handbook, the repo, and the GPT are all real and active.
 
 ---
 
-## Stage 2 — Public Repo (Current)
+## Stage 1 — Handbook ✓ Done
 
-**What this stage includes:**
+**What exists:**
+- The GNP framework and CASSEROLE model
+- The full Build and Dev Handoffs handbook, published and available
+
+---
+
+## Stage 2 — Public Repo ✓ Done
+
+**What exists:**
 - This repository as the canonical home of the framework
 - All framework docs, examples, and reference material
 - GitHub Discussions as the main community forum
@@ -32,39 +41,51 @@ The repo is public for visibility, education, community discussion, and credibil
 
 ---
 
-## Stage 3 — GPT Intake Assistant (Planned)
+## Stage 3 — GNP Intake Assistant ✓ Live
 
-**What this will be:**
-A guided assistant — built on GPT or a similar model — that helps people apply CASSEROLE to a real request through conversation. Instead of filling out a checklist manually, you describe your request and the assistant helps identify what is missing and fill in the gaps.
+**What it is:**
+A companion GPT — built on GPT — that helps people apply CASSEROLE to a real request through conversation. Instead of filling out a checklist manually, you describe your request and the assistant helps identify what is missing and fill in the gaps.
 
-Three core modes are planned:
+Three core modes:
 1. **Intake Mode** — shape a request from scratch using the GNP sections
 2. **Casserole Readiness Check** — review an existing request against the CASSEROLE framework
 3. **Another Casserole Pass** — a calm, structured response explaining what needs more work
 
-**Status:** Concept. Not yet built.
+**Status:** Live. [Try the GNP Intake Assistant here.](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant)
 
-See [gpt-intake-assistant.md](gpt-intake-assistant.md) for more detail.
-
----
-
-## Stage 4 — Templates & Toolkit Pack (Planned)
-
-**What this will be:**
-A set of downloadable or copyable templates for common request types — startup feature requests, community program asks, small business workflow fixes, contractor handoffs, and more. Formatted for the tools people already use: Notion, Google Docs, Markdown, and others.
-
-**Status:** Not yet built.
+This is a real, working GPT — not yet the full structured app or middleware vision, but an early interactive layer of GNP. See [gpt-intake-assistant.md](gpt-intake-assistant.md) for more detail.
 
 ---
 
-## Stage 5 — Prototype App or Middleware (Future Vision)
+## What's Next
 
-**What this might become:**
+The following are honest future directions:
+
+### Toolkit Expansions & Additional Example Packs
+
+Downloadable or copyable templates for common request types — startup feature requests, community program asks, small business workflow fixes, contractor handoffs, and more. Formatted for the tools people already use: Notion, Google Docs, Markdown, and others.
+
+**Status:** Planned.
+
+### Broader GNP Adaptations
+
+Exploring how the Good Neighbor Protocol applies beyond build and dev handoffs — to other collaboration contexts where the same structural clarity matters.
+
+**Status:** Exploratory.
+
+### Structured Intake App (Longer-Term)
+
 A lightweight structured intake tool — either a standalone app or a middleware layer that sits alongside existing project management tools and helps teams apply GNP at the moment a request is created.
 
-This is a vision, not a near-term plan. It will not be built until the framework and earlier tools are stable and tested.
+This is a longer-term direction, not a near-term plan. It will not be built until the framework and earlier tools are stable and tested.
 
-**Status:** Concept only. Significant definition and development work required.
+**Status:** Future direction. Significant definition and development work required.
+
+### Middleware / Platform Direction (Longer-Term)
+
+A vision for GNP as a layer that integrates with dev tools and platforms — upstream of where requests land, helping teams shape handoffs before they hit Jira, Linear, GitHub, or wherever work lives.
+
+**Status:** Future vision. Not being actively built yet.
 
 ---
 

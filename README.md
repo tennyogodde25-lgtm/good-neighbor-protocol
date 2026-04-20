@@ -76,6 +76,7 @@ See [docs/casserole-checklist.md](docs/casserole-checklist.md) for a full walkth
 | [docs/source-of-truth.md](docs/source-of-truth.md) | The canonical definition of GNP and CASSEROLE |
 | [docs/handbook-overview.md](docs/handbook-overview.md) | Overview of the GNP handbook structure |
 | [docs/casserole-checklist.md](docs/casserole-checklist.md) | A practical checklist for shaping any request |
+| [docs/commandments.md](docs/commandments.md) | The ten commandments of the Good Neighbor Protocol |
 | [docs/examples.md](docs/examples.md) | Before/after examples from real-world request types |
 | [docs/faq.md](docs/faq.md) | Common questions, honest answers |
 | [docs/roadmap.md](docs/roadmap.md) | Where this project is heading |
@@ -138,8 +139,9 @@ New to GNP? Here's a path in:
 2. Read [docs/source-of-truth.md](docs/source-of-truth.md) — the full canonical definition
 3. Walk through [docs/casserole-checklist.md](docs/casserole-checklist.md) with a real request you're working on
 4. Browse [docs/examples.md](docs/examples.md) to see what the before/after looks like in practice
-5. Check [docs/faq.md](docs/faq.md) if you have questions
-6. Buy the Build and Dev Handoffs edition of the handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
+5. Read [docs/commandments.md](docs/commandments.md) for the ten operating rules of GNP
+6. Check [docs/faq.md](docs/faq.md) if you have questions
+7. Buy the Build and Dev Handoffs edition of the handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
 
 Questions, thoughts, and handoff stories are welcome in [GitHub Discussions](../../discussions).
 

@@ -39,6 +39,8 @@ The structural heart of GNP. This section introduces the eight-section handoff s
 ### 5. The Commandments / Rules
 The operating rules of GNP — the things you commit to when you use this framework. Not rigid laws, but clear agreements about what good-neighbor behavior looks like in practice.
 
+See [commandments.md](commandments.md) for all ten commandments.
+
 ### 6. Chaos to Casserole
 Before/after examples showing what requests look like before and after applying GNP. This section makes the abstract practical.
 

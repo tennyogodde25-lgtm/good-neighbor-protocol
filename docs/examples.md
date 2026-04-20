@@ -1,8 +1,18 @@
 # Examples — Good Neighbor Protocol
 
-These are before/after examples showing what requests look like before and after applying the CASSEROLE framework.
+These are before/after examples showing what requests look like before and after applying the Good Neighbor Protocol.
 
-The chaos versions are real. They are the kinds of messages people send every day. The casserole versions are not formal documents — they are the same request with enough shape to actually be carried.
+The chaos versions are real. They are the kinds of messages people send every day. The casserole versions are not formal documents — they are the same request passed through the GNP core structure: named, shaped, and carryable.
+
+Each casserole version uses the eight sections of the Good Neighbor Protocol:
+1. Problem & People
+2. Current Reality
+3. Desired Outcome
+4. Data & Safety
+5. Scope & Constraints
+6. Risk & Compliance
+7. Explain-Why Notes
+8. Neighbor Pledge
 
 ---
 
@@ -10,73 +20,79 @@ The chaos versions are real. They are the kinds of messages people send every da
 
 ### Chaos Version
 
-> "We need a dashboard or something — everyone keeps asking for updates and we can't keep doing this manually."
+> "We need a dashboard or something for the team because everybody keeps asking me where things stand, and I'm tired of repeating myself. Can you just make something where everybody can see updates? It should be simple. Maybe with notifications too. I just need it to stop being a mess."
 
-### What's missing
+This contains a real frustration. But it is still missing too much.
 
-- **Clarity:** "A dashboard or something" is not a request. What kind of updates? For whom?
-- **Alignment:** Is this a reporting problem, a communication problem, a workflow problem, or all three?
-- **Scope:** Is this one screen? A new product feature? An internal tool? An external one?
-- **Safety:** Who has access? Is any of this data sensitive?
-- **Expectations:** What does a successful dashboard look like — what does it show, and to whom?
-- **Reasonability:** How complex is the data? Is this a week of work or a quarter?
-- **Ownership:** Who is deciding what goes on this dashboard? Who approves it before it ships?
-- **Explain-Why:** What is the real problem being solved — what happens if updates keep going out manually?
+What kind of updates? Who needs them? What is happening now? What problem is the dashboard solving? Who is going to maintain it? What counts as success? What does "simple" mean? What is actually in scope?
 
 ### Casserole Version
 
-> "We have a visibility problem. Our clients and internal stakeholders keep asking for project status updates, and right now one of us responds manually each time. It is taking up several hours a week and the information is inconsistent.
->
-> We need a simple dashboard that shows current project status for each active client — not detailed data, just high-level milestones: what's complete, what's in progress, what's next, and any blockers.
->
-> In scope: a read-only view accessible to clients via a link. Out of scope: editing capabilities, payment data, or anything beyond project milestones in this first version.
->
-> This is client-facing, so anything involving names, timelines, or project details needs to be treated as confidential.
->
-> Success looks like: a client can check their own project status without emailing us. We consider it done when we can turn off the manual update emails for at least 80% of clients.
->
-> Constraints: we need a working version within six weeks. We are not ready to build a full product — this can be scrappy as long as it is accurate and accessible.
->
-> Owner: [Founder] approves scope and design. [Dev lead] owns delivery.
->
-> Why this matters: the manual update process is burning time we don't have, and inconsistent updates are starting to affect client trust."
+**Problem & People:**
+The operations lead is repeatedly being asked for project status updates by team members across product, design, and leadership. This is creating interruptions, duplicated communication, and confusion about where work stands.
+
+**Current Reality:**
+Status updates are currently shared across Slack, meetings, and scattered notes. There is no single place where the team can reliably check progress.
+
+**Desired Outcome:**
+Create one shared place where team members can view project status, blockers, and next steps without needing to ask for updates individually. Success would mean fewer repetitive status questions and better visibility across the team.
+
+**Data & Safety:**
+This does not involve sensitive personal data, but internal project information should still be visible only to the appropriate team.
+
+**Scope & Constraints:**
+In scope: a lightweight internal status view with project stage, owner, and blockers.
+Out of scope: full project management replacement, deep reporting, or company-wide analytics.
+Constraints: limited engineering time, need for easy updating, and preference for using existing tools where possible.
+
+**Risk & Compliance:**
+Low to medium risk. Main risks are misinformation if updates are not maintained and confusion if visibility is broader than intended.
+
+**Explain-Why Notes:**
+A lightweight status layer is appropriate because the actual need is visibility, not an entirely new project management system.
+
+**Neighbor Pledge:**
+We will not call this a "small dashboard" if the scope starts expanding into a full platform. We will not hide maintenance expectations from the people building it.
 
 ---
 
-## Example 2: Youth / Community Program Communication Issue
+## Example 2: Community Program Communication Problem
 
 ### Chaos Version
 
-> "Can you make some kind of parent portal? Parents are always reaching out in a million different ways and we can't keep track."
+> "Can you make some kind of portal for parents? They keep calling and asking questions, and we need one place for them to know what's going on. Maybe they can log in and see forms and updates. It shouldn't be too hard."
 
-### What's missing
+The frustration is real. But the request arrives as a loose bundle of assumptions.
 
-- **Clarity:** What problem is the portal solving — information delivery, two-way messaging, scheduling, all of the above?
-- **Safety:** This involves minors and their families. Privacy and data handling requirements are significant.
-- **Scope:** Is this an announcement board? A messaging system? A document repository? A scheduling tool?
-- **Reasonability:** "A parent portal" could be a two-week project or a two-year platform. This needs scoping.
-- **Expectations:** What does a working version look like — not the final version, the first version that actually helps?
-- **Limits:** What are the compliance requirements (FERPA, COPPA, local regulations)? What tech stack or tools are already in use?
+What kind of parents? What kind of information? What kind of data? Does this involve minors? What is the simplest useful version? What should never be included? Who is updating it?
 
 ### Casserole Version
 
-> "We run a youth program and parent communication is currently scattered across text messages, emails, phone calls, and social media DMs. Staff are losing time managing multiple channels, and important information is getting missed.
->
-> The real problem is: there is no single place for parents to find program announcements, schedule updates, and basic program information.
->
-> For a first version, we need a one-way communication channel — a simple way to post announcements that parents can access in one place. We are not asking for two-way messaging or a full portal in this version.
->
-> Safety: all families enrolled in the program are parents or guardians of minors. Any solution must comply with our organization's data privacy policy and applicable youth program regulations. No individual child data should be visible to other families.
->
-> In scope: announcement posting, accessible by a shareable link or login. Out of scope: direct messaging between parents and staff, payment processing, or enrollment forms in this version.
->
-> Success looks like: staff can post one announcement and all enrolled families see it without the team needing to send it through multiple channels.
->
-> Constraints: we have a small budget and no dedicated tech staff. Any solution needs to be something non-technical staff can maintain.
->
-> Owner: [Program Director] approves content and access. [Operations Lead] owns tool selection and setup.
->
-> Why this matters: missed communications have caused confusion at pickup, missed consent forms, and parent frustration. This is affecting trust in the program."
+**Problem & People:**
+Parents of teens in an after-school youth program are repeatedly calling staff because updates about events, forms, and schedule changes are not reaching them clearly. Staff are overwhelmed, and families are missing important information.
+
+**Current Reality:**
+Information is currently shared through paper flyers, occasional texts, and verbal reminders. There is no single, reliable location for parents to check what is current.
+
+**Desired Outcome:**
+Provide one reliable place for parents to access schedule updates, event information, and required forms. Success would mean fewer repetitive calls, fewer missed updates, and a clearer communication flow.
+
+**Data & Safety:**
+This may involve names of minors, parent contact information, and program details. It should not include medical records, counseling notes, financial data, or sensitive youth information.
+
+**Scope & Constraints:**
+In scope: schedules, forms, reminders, and event updates.
+Out of scope: health records, payments, behavioral notes, or complex family account systems in the first version.
+Constraints: small budget, low technical capacity, and a need for staff to update information easily.
+
+**Risk & Compliance:**
+Medium risk because the request touches information connected to minors. Privacy, access, and appropriate visibility all need consideration.
+
+**Explain-Why Notes:**
+This is safe enough to explore if the first version avoids sensitive data, limits information appropriately, and includes a clear review of access before launch.
+
+**Neighbor Pledge:**
+We will not quietly turn this into a student-data system. We will not treat youth-related information casually. We will not describe this as "simple" while hiding privacy considerations.
 
 ---
 
@@ -84,44 +100,51 @@ The chaos versions are real. They are the kinds of messages people send every da
 
 ### Chaos Version
 
-> "We need to automate our intake because it's getting ridiculous. People are falling through the cracks and I can't keep doing this manually."
+> "We really need to automate our intake because it's getting ridiculous. Leads are falling through the cracks, everybody's doing things differently, and I'm tired of chasing people down. Can you build something to fix it?"
 
-### What's missing
+This is the kind of request that sounds urgent because it is urgent. But urgency is not the same as clarity.
 
-- **Clarity:** What is the intake process? What exactly is broken — volume, inconsistency, missing information, follow-up gaps?
-- **Current Reality:** What does the existing process look like, step by step?
-- **Scope:** Are we automating the whole intake process or just a specific broken part?
-- **Expectations:** What does "fixed" look like — fewer dropped leads, consistent data, automatic follow-ups, all of the above?
-- **Reasonability:** What tools are already in use? What is the budget and technical capacity?
-- **Explain-Why:** What is the real cost of the current situation — lost clients, staff time, reputation?
+What kind of intake? For who? What happens now? Where are leads getting lost? What part needs automation and what part needs standardization? What systems are already in use? What exactly is "fix it"?
 
 ### Casserole Version
 
-> "Our current client intake process is entirely manual — a mix of email threads, handwritten notes, and follow-up reminders stored in a personal task list. When inquiries come in, the process for collecting information, following up, and scheduling a first call is inconsistent.
->
-> The result: some prospective clients fall through without a response, we are collecting different information from different people, and there is no reliable record of who is in the pipeline.
->
-> The specific problem we need to solve: intake consistency. Every new inquiry should go through the same process, collect the same basic information, and trigger the same follow-up steps — without someone having to remember to do it manually each time.
->
-> In scope: a form for new inquiries that captures contact info, service interest, and timeline; an automatic confirmation to the person who submitted it; and a trigger that notifies the right staff member to follow up. Out of scope: full CRM implementation, payment processing, or scheduling automation in this version.
->
-> Success looks like: zero dropped inquiries. If someone submits a form, we know about it and there is a clear next step.
->
-> Constraints: we use [existing tools] and do not have budget for a new platform. Any solution needs to work within what we already have or be inexpensive and simple enough for non-technical staff to maintain.
->
-> Owner: [Owner/Manager] approves the process design. [Staff Lead] owns daily maintenance.
->
-> Why this matters: we have lost at least three confirmed clients in the last two months because follow-up fell through the cracks. That is real revenue and real reputation damage."
+**Problem & People:**
+A small service business is losing leads because inquiry handling is inconsistent across staff. Customers submit requests, but follow-up timing, data capture, and assignment vary from person to person.
+
+**Current Reality:**
+Some leads come through email, some through a web form, and some by phone. Information is manually copied into spreadsheets or messages, and there is no standard process for assignment or follow-up.
+
+**Desired Outcome:**
+Create a consistent intake workflow so every lead is captured, assigned, and followed up on in a predictable way. Success would mean fewer lost inquiries, faster follow-up, and less manual chasing by management.
+
+**Data & Safety:**
+This includes customer contact information and service request details. It may not be highly sensitive, but it still requires appropriate access and handling.
+
+**Scope & Constraints:**
+In scope: intake standardization, assignment flow, and a simple tracking system.
+Out of scope: a full CRM replacement, advanced marketing automation, or rebuilding every internal process at once.
+Constraints: limited time, limited budget, and a need to use existing tools wherever possible.
+
+**Risk & Compliance:**
+Low to medium risk. The main risks are dropped follow-up, inconsistent handling, and overbuilding beyond the team's real capacity.
+
+**Explain-Why Notes:**
+A structured intake workflow is more appropriate than jumping straight to a large software rebuild because the root problem is inconsistency, not necessarily lack of tools.
+
+**Neighbor Pledge:**
+We will not confuse a workflow problem with a mandate to rebuild the whole business. We will not hide process inconsistency behind vague language like "automation."
 
 ---
 
-## A Note on These Examples
+## What These Examples Show
 
-None of these required a long meeting or a formal intake process. They required someone to slow down and ask: *what does the person receiving this actually need to know to start?*
+Each situation is different — a startup, a community program, a small business. Different people, different vocabulary, different risks, different stakes. And yet the pattern is the same.
 
-That is what CASSEROLE is for.
+A real need appears. The first version of the request arrives under-shaped. Important context is missing. The receiving person would be forced to guess. Then GNP enters — not to make the request fancy, not to bury it in paperwork, but to shape the handoff enough that another person can work from it honestly.
 
-If a request still feels unclear after applying the framework, that is useful information too. It means the request needs another casserole pass before it goes anywhere.
+A casserole is not a perfect document. It is a shaped one. It can still have questions. It can still need revision. The point is to reduce preventable confusion — not to eliminate all uncertainty.
+
+If a request still feels unclear after applying the framework, that is useful information. It means the request needs another casserole pass before it goes anywhere.
 
 ---
 

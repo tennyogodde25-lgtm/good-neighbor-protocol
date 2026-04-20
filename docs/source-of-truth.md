@@ -8,11 +8,13 @@
 
 **Project Name:** Good Neighbor Protocol (GNP)
 
+**Current Edition:** The Good Neighbor Protocol for Build and Dev Handoffs
+
 **Core Tagline:** Good neighbors bring casseroles, not chaos.
 
 **Core Idea:**
 
-The Good Neighbor Protocol is a handbook-backed framework for helping people turn messy, vague, emotionally overloaded, or incomplete handoffs into clearer, more carryable requests.
+The Good Neighbor Protocol for Build and Dev Handoffs is a handbook-backed framework for helping founders, clients, developers, and teams turn messy build requests into clearer, kinder, more carryable collaboration.
 
 It exists because too many people hand off ideas badly:
 - vague tickets

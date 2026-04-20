@@ -116,7 +116,7 @@ GNP is independently developed. If it has been useful to you:
 - ⭐ Star this repo
 - 💬 Share it with someone who sends unclear requests
 - 📖 Buy the Build and Dev Handoffs edition of the handbook: https://tennyogodde.gumroad.com/l/eowoat
-- ☕ [Buy me a coffee](https://buymeacoffee.com/) *(placeholder — link coming)*
+- ☕ [Buy me a coffee](buymeacoffee.com/KaylaMonCheriCampbell) 
 - 💛 [GitHub Sponsors](https://github.com/sponsors/) *(placeholder — link coming)*
 
 ---

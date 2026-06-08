@@ -2,9 +2,9 @@
 
 > **Good neighbors bring casseroles, not chaos.**
 
-This repo currently focuses on the Build and Dev Handoffs edition of the Good Neighbor Protocol.
+This repo currently focuses on the Good Neighbor Protocol for Build and Dev Handoffs.
 
-This edition focuses on helping founders, clients, developers, and teams turn messy build requests into clearer, kinder, more carryable collaboration. The full Build and Dev Handoffs handbook is available here: https://tennyogodde.gumroad.com/l/eowoat
+This edition focuses on helping founders, clients, developers, and teams turn messy build requests into clearer, kinder, more carryable collaboration. The handbook now exists in its expanded 21-part form, and this repository is the public home for that framework and its supporting materials.
 
 It is a shared language. A collaboration protocol. A bridge between vision and execution.
 
@@ -74,7 +74,7 @@ See [docs/casserole-checklist.md](docs/casserole-checklist.md) for a full walkth
 | File | What it is |
 |------|-----------|
 | [docs/source-of-truth.md](docs/source-of-truth.md) | The canonical definition of GNP and CASSEROLE |
-| [docs/handbook-overview.md](docs/handbook-overview.md) | Overview of the GNP handbook structure |
+| [docs/handbook-overview.md](docs/handbook-overview.md) | Overview of the expanded 21-part handbook structure |
 | [docs/casserole-checklist.md](docs/casserole-checklist.md) | A practical checklist for shaping any request |
 | [docs/commandments.md](docs/commandments.md) | The ten commandments of the Good Neighbor Protocol |
 | [docs/examples.md](docs/examples.md) | Before/after examples from real-world request types |
@@ -88,27 +88,27 @@ See [docs/casserole-checklist.md](docs/casserole-checklist.md) for a full walkth
 
 ## Current Status
 
-The Good Neighbor Protocol for Build and Dev Handoffs currently exists as a **handbook, framework, and live companion GPT**. This repository is its public home.
+The Good Neighbor Protocol for Build and Dev Handoffs currently exists as an expanded handbook, a framework, a public repository, and a live companion GPT. This repository is its public home.
 
-There is no app. No paid tier. No integrations. The foundation is the Build and Dev Handoffs handbook, and the handbook is here.
+There is no app. No paid tier. No full middleware layer. The expanded Build and Dev handbook exists now, and the handbook remains the foundation.
 
 ---
 
 ## GNP Intake Assistant
 
-The GNP Intake Assistant is now live as a companion GPT.
+The GNP Intake Assistant is live as a companion GPT.
 
 It helps users turn vague requests into clearer handoffs, check casserole-readiness, identify missing ingredients, and suggest another casserole pass when needed.
 
 **Try it here:** [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant)
 
-It is an early interactive layer of GNP — a real, working tool — but not yet the full structured app or middleware vision. See [docs/gpt-intake-assistant.md](docs/gpt-intake-assistant.md) for more detail.
+It is an early interactive layer of GNP — a real, working tool — but not the full app or middleware vision. See [docs/gpt-intake-assistant.md](docs/gpt-intake-assistant.md) for more detail.
 
 ---
 
 ## What's Next
 
-The GNP Intake Assistant is live. The following are honest future directions:
+The handbook, the repo, and the GNP Intake Assistant all exist now. The following remain future directions:
 
 - **Templates & Toolkit Pack** — downloadable templates for common request types
 - **Structured Intake App** — a lightweight tool for teams at the point of request creation
@@ -132,7 +132,7 @@ GNP is independently developed. If it has been useful to you:
 
 ## Repository Notes
 
-This is a public repository shared for visibility, education, and community discussion. Public visibility does not equal permission to copy, commercialize, republish, or create derivative products from the framework materials.
+This is a public repository shared for visibility, education, and community discussion. Public visibility does not equal permission to copy, commercialize, republish, or create derivative products from the framework.
 
 Rights remain with the creator. See [RIGHTS.md](RIGHTS.md) for the full statement.
 
@@ -146,11 +146,12 @@ New to GNP? Here's a path in:
 
 1. Read this README
 2. Read [docs/source-of-truth.md](docs/source-of-truth.md) — the full canonical definition
-3. Walk through [docs/casserole-checklist.md](docs/casserole-checklist.md) with a real request you're working on
-4. Browse [docs/examples.md](docs/examples.md) to see what the before/after looks like in practice
-5. Read [docs/commandments.md](docs/commandments.md) for the ten operating rules of GNP
-6. Check [docs/faq.md](docs/faq.md) if you have questions
-7. Buy the Build and Dev Handoffs edition of the handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
+3. Read [docs/handbook-overview.md](docs/handbook-overview.md) — the current 21-part handbook framing
+4. Walk through [docs/casserole-checklist.md](docs/casserole-checklist.md) with a real request you're working on
+5. Browse [docs/examples.md](docs/examples.md) to see what the before/after looks like in practice
+6. Read [docs/commandments.md](docs/commandments.md) for the ten operating rules of GNP
+7. Check [docs/faq.md](docs/faq.md) if you have questions
+8. Buy the Build and Dev Handoffs edition of the handbook on Gumroad: https://tennyogodde.gumroad.com/l/eowoat
 
 Questions, thoughts, and handoff stories are welcome in [GitHub Discussions](../../discussions).
 

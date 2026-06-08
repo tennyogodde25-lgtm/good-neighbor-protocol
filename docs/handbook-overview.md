@@ -1,63 +1,51 @@
 # Handbook Overview — Good Neighbor Protocol for Build and Dev Handoffs
 
-The Build and Dev Handoffs edition of the GNP handbook is the foundation and teaching layer of the framework. Everything else — the checklist, the examples, the future tools — derives from it.
+The Good Neighbor Protocol for Build and Dev Handoffs handbook is the foundation and teaching layer of the framework. Everything else — the checklist, the examples, the companion GPT, and any future tools — derives from it.
 
 ---
 
 ## What the Handbook Is
 
-The Build and Dev Handoffs handbook is where the ideas are explained in depth. It is not a reference doc or a quick-start guide. It is the place you go to understand *why* GNP exists and *how* to think about handoffs differently — specifically in the context of build requests, dev work, and the collaboration between the people asking and the people carrying.
+The Build and Dev Handoffs handbook is where the ideas are explained in depth. It is not a reference doc or a quick-start guide. It is the place you go to understand *why* GNP exists, *how* it works, and how to think about handoffs differently in the context of build requests, dev work, and the collaboration between the people asking and the people carrying.
 
 The most authoritative document in this repository is [source-of-truth.md](source-of-truth.md). When other documents conflict with it, the source of truth wins.
 
 ---
 
-## The 11-Part Handbook Structure
+## The 21-Part Handbook Structure
 
-The handbook is organized into 11 parts:
+The handbook now follows a 21-part structure.
 
-### 1. Opening / Hook
-The opening pulls the reader into the real problem: why so many handoffs fail before they begin, and what it costs the people on the receiving end. It sets the stakes without lecturing.
+Parts **1–11** establish the philosophy, language, structure, and collaboration ethic of the protocol. They explain the problem GNP addresses, define the framework, introduce the core handoff structure, and give the reader the language needed to use the protocol well.
 
-### 2. The Cost of Chaos
-An honest look at what vague, overloaded, or undercooked requests actually do — to relationships, timelines, budgets, and the people carrying the work. The cost of chaos is not abstract.
+Parts **12–21** expand the protocol into practical implementation for build and dev handoffs. They move from principle into applied use: how the framework gets carried into real requests, real delivery work, and the realities of handoff-driven collaboration.
 
-### 3. What GNP Is
-A clear, plain-language explanation of the framework: what it is, what it is not, and why it is built the way it is. This is where "clarity is kindness" is grounded.
+The handbook should be understood as one unified protocol handbook. It is not split into separate branded systems. The first half establishes the framework. The second half expands it into practical use.
 
-### 4. The Core Protocol
-The structural heart of GNP. This section introduces the eight-section handoff structure:
-1. Problem & People
-2. Current Reality
-3. Desired Outcome
-4. Data & Safety
-5. Scope & Constraints
-6. Risk & Compliance
-7. Explain-Why Notes
-8. Neighbor Pledge
+---
 
-### 5. The Commandments / Rules
-The operating rules of GNP — the things you commit to when you use this framework. Not rigid laws, but clear agreements about what good-neighbor behavior looks like in practice.
+## How to Read the Structure
 
-See [commandments.md](commandments.md) for all ten commandments.
+### Parts 1–11: Foundation
+These sections establish the philosophy, language, and core framework of GNP. They define the problem, the collaboration ethic, the CASSEROLE logic, the handoff structure, and the shared language that makes the rest of the protocol usable.
 
-### 6. Chaos to Casserole
-Before/after examples showing what requests look like before and after applying GNP. This section makes the abstract practical.
+### Parts 12–21: Practical Build and Dev Expansion
+These sections extend the protocol into implementation for build and dev handoffs. They focus on how structured requests hold up when they meet scope, execution, coordination, and the practical demands of real project work.
 
-### 7. The Handoff Loop
-How GNP works as a two-way process. The requester brings the casserole. The receiver checks the ingredients. "Another casserole pass" is introduced here as shared protocol language.
+Together, all 21 parts make up the current handbook.
 
-### 8. Real-World Examples
-Extended worked examples from real-world request types: startup feature requests, community program communication issues, small business workflow fixes, and others.
+---
 
-### 9. The Neighbor Mindset
-The values layer. This section is about what it means to behave like a good neighbor in a collaboration — caring about the person receiving the work as much as the work itself.
+## What Stays Central
 
-### 10. For the People on the Receiving Side
-A dedicated section for developers, project managers, builders, designers, operators, and team stewards. They deserve protection too. This section speaks directly to them.
+Even as the handbook expands, the center of the framework stays the same:
 
-### 11. Closing
-Where the framework lands. A return to the central metaphor, a reminder of what GNP is trying to do, and an invitation to use it.
+- handoffs should be clear enough to carry
+- the receiving side should not have to build the missing structure alone
+- clarity is kindness
+- the handbook comes first
+
+The checklist, examples, companion GPT, and future tools all depend on the handbook rather than replacing it.
 
 ---
 
@@ -82,7 +70,9 @@ Read the [Roadmap](roadmap.md).
 
 ## A Note on What Exists Right Now
 
-The handbook comes first. The tools follow the handbook. GNP now exists as the Build and Dev Handoffs handbook, a public project home, and a live companion GPT — the [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant). Templates and a possible app are still future directions — honest ones, but not yet built.
+The handbook comes first. The tools follow the handbook. GNP now exists as the expanded Build and Dev Handoffs handbook, this public repository, and the live companion GPT — the [GNP Intake Assistant](https://chatgpt.com/g/g-69e55335a8e4819186385d67a74ab6f0-gnp-intake-assistant).
+
+Templates, toolkit materials, middleware ideas, and app layers may still come later. They are future-facing directions, not the current center of the project.
 
 When those things are built, this handbook will remain the foundation. Not a pitch deck. Not a product spec. The place where the ideas live.
 
